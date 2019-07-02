@@ -1,5 +1,7 @@
 # Blog-App
-A React-Redux based blog app which uses firebase cloud, database and auth functions.
+A React-Redux based blog app which uses firebase cloud, database, hosting and auth functions.
+This Project let's you Signup and Login and Create new blog post. It will let you create a new post only if you sign up.
+Users can view the Blog without authentication.
 
 ### Testing locally
 		
@@ -10,3 +12,11 @@ A React-Redux based blog app which uses firebase cloud, database and auth functi
 Dependencies can be installed via package.json by using 
 		
 		npm install
+
+### Hosting Via Firebase
+This Project is already hosted at firebase and can be accessed via
+
+		https://react-blog-8264a.firebaseapp.com/
+		https://react-blog-8264a.web.app/
+
+Note :- Users may experience few seconds delay in between.
