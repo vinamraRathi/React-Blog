@@ -2,11 +2,8 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { firestoreConnect} from 'react-redux-firebase'
 import { compose } from 'redux'
-<<<<<<< HEAD
-=======
 import { Redirect } from 'react-router-dom'
 import moment from 'moment'
->>>>>>> 1fd3487... Adding User Data and Date
 
 const ProjectDetails = (props) => {
     const { project } = props;
